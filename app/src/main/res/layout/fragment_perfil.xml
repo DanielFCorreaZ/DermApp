@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.danielcorrea.dermapp.PerfilFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context="com.danielcorrea.doggergrill.PerfilFragment"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/invi"
+            android:gravity="center"
+            android:textColor="@color/azulito"
+            android:textSize="60sp"
+            android:inputType="textPersonName"
+            android:id="@+id/nombre"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/correo"
+            android:textColor="@color/azulito"
+            android:textSize="30sp"
+            android:id="@+id/email"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+
+            android:src="@drawable/user"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

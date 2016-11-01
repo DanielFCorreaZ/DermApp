@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.danielcorrea.dermapp.Loggin"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/nombre"
+        android:layout_weight="2"
+        android:layout_gravity="top" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:background="@drawable/boton"
+        android:text="@string/trab"
+
+        android:id="@+id/sin"
+        android:textSize="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:inputType="textPersonName"
+        android:textColor="@color/azulito"
+        android:hint="@string/usuario"
+        android:textSize="40dp"
+        android:textColorHint="@color/azulito"
+        android:id="@+id/usser"
+        android:textColorLink="@color/azulito"
+        android:textStyle="bold|italic"
+        android:singleLine="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:textColorLink="@color/azulito"
+        android:hint="@string/contra"
+        android:textSize="40dp"
+        android:textColorHint="@color/azulito"
+        android:inputType="textPassword"
+        android:textColor="@color/azulito"
+        android:id="@+id/paass"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/ok"
+            android:background="@drawable/boton"
+            android:textColor="@color/white"
+            android:text="@string/entrar"
+            android:textSize="30dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/boton"
+            android:id="@+id/reg"
+            android:text="@string/registro"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,297 @@
+<resources>
+    <string name="app_name">DermApp</string>
+    <string name="usuario">Profesional</string>
+    <string name="contra">Codigo</string>
+    <string name="recontra">Repetir Codigo</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="entrar">Ingreso</string>
+    <string name="registro">Registro</string>
+    <string name="trab">Ingresar Sin Registro</string>
+
+
+    <string name="casi2">Califica la aplicacion </string>
+    <string name="casi3">Gracias por ayudarnos a ser mejores !</string>
+    <string name="clas">Calificar</string>
+    <string name="abierto">Open navigation drawer</string>
+    <string name="cerrado">Close navigation drawer</string>
+    <string name="valorax2">Recomendaciones a seguir al obtener su valorizacion UPP Braden</string>
+
+    <string name="valora1">Escala de Valorizacion de Cicatrizacion: Resvech 1.0 y 2.0</string>
+    <string name="valora2">Escala de Valoracion: Riesgo de Ulceras por Presion: Braden(UPP)</string>
+    <string name="valora3">Valoracion de superficie corporal quemada: Regla de los 9 de Wallace</string>
+
+    <string name="valor">Escala de Valorizacion:</string>
+    <string name="valor2">Riesgo de Ulceras por Presion: Braden(UPP)</string>
+    <string name="valor1">Cicatrizacion Resvech 1.0 y 2.0</string>
+    <string name="valor3">Superficie corporal quemada: Regla de los 9 de Wallace</string>
+
+
+    <string name="valoras1">Resvech</string>
+    <string name="valoras2">Braden</string>
+    <string name="valoras3">Wallace</string>
+
+    <string name="valorasi1">Resvech</string>
+    <string name="valorasi2">Valoracion del riesgo de deterioro de la integridad cutanea por la presencia de factores de riesgo para el desarrollo de ulceras por presion</string>
+    <string name="valorasi3">Wallace</string>
+
+
+    <string name="loggin1">No ha ingresado el nombre de usuario</string>
+    <string name="loggin2">El nombre de usuario no se encuentra registrado</string>
+    <string name="loggin3">No ha ingresado la contraseña</string>
+    <string name="loggin4">No ha ingresado la contraseña correcta</string>
+    <string name="loggin5">El nombre de usuario ya existe</string>
+    <string name="loggin6">No ha ingresado la misma contraseña</string>
+    <string name="loggin7">No ha ingresado el correo correcto</string>
+    <string name="loggin8">No ha ingresado una direccion de correo correcto</string>
+
+    <string name="loggin9">Usuario Registrado</string>
+
+
+    <string-array name="posiciones">
+        <item>Menu Principal</item>
+        <item>Perfil</item>
+        <item>Valoraciones</item>
+        <item>Calificacion</item>
+        <item>Cerrar Sesion</item>
+    </string-array>
+
+
+    <string name="empezar">Empezar</string>
+
+
+    <string name="main">Menu Principal</string>
+    <string name="main1">Perfil</string>
+    <string name="main2">Valoraciones</string>
+    <string name="main3">Calificacion</string>
+    <string name="main4">Cerrar Sesion</string>
+
+
+    <string name="invi">Invitado</string>
+
+    <string name="perfil">Perfil</string>
+    <string name="perfil1">Valoraciones</string>
+
+    <string name="ayuda">Conoce a DermApp </string>
+    <string name="ayuda1">Podras encontrar informacion relevante a la aplicacion y sus funciones</string>
+    <string name="ayuda2">Recomendado para el usuario nuevo</string>
+
+    <string name="main6">Recomendado para todo usuario</string>
+    <string name="main7">Consejos y Tips</string>
+    <string name="main8">Consejos y practicas para el cuidado diario de la piel</string>
+    <string name="main9">Escalas y Valoraciones</string>
+    <string name="main10">Informacion de las escalas y valoraciones de la aplicacion</string>
+
+    <string name="main11">Recomendado para el usuario inexperto</string>
+    <string name="main12">Ayuda Complementaria</string>
+    <string name="main13">Guia de apoyo para realizar correctamente las valoraciones</string>
+
+    <string name="main14">Accion a seguir</string>
+    <string name="main15">Recomendaciones relacionadas con el resultdo de las valoraciones</string>
+
+    <string name="main16">Recomendado para el usuario profesional</string>
+    <string name="main17">Contactanos</string>
+    <string name="main18">Informacion util para para el registro de hospitales</string>
+
+
+    <string name="conse1">Cuidados para la Piel de la Cara</string>
+    <string name="conse2">Una buena rutina de cuidado de la piel puede retrasar las señales naturales del envejecimiento y puede prevenir problemas de la piel como acné, resequedad, eccemas y quemaduras de sol:
+</string>
+    <string name="conse3">* Una piel cuidada e hidratada de cualquier edad siempre se verá mucho más bonita que una deshidratada y sin ningún sacrificio ya que con tres o cuatro productos será suficiente.</string>
+
+
+    <string name="conse4">* En la rutina diaria siempre es igual para todos los tipos de pieles, la única diferencia dependiendo del tipo de piel, es el producto a usar y como usarlo.</string>
+    <string name="conse5">Piel Seca</string>
+    <string name="conse6">Piel de aspecto opaco y rugoso con tendencia a descamarse. Tiende a arrugarse más fácilmente que el de la piel grasa. El sol, el aire y la contaminación contribuyen a que se agraven estos efectos. La piel seca, es la que más cuidados necesita. Por la mañana sería preciso tratar esta piel con una crema hidratante así como una crema nutritiva por la noche.</string>
+    <string name="conse7">Piel Sensible</string>
+    <string name="conse8">Esta piel es delicada, ligeramente seca que se irrita fácilmente y propensa a reacciones alérgicas por cosméticos, perfumes o detergentes. Los cambios atmosféricos y climáticos y los cosméticos no apropiados pueden causar irritación, dejando la piel rojiza y a veces con visibles vasos sanguíneos.</string>
+    <string name="conse9">Piel Normal</string>
+    <string name="conse10">Esta piel tiene una textura suave, no tiene espinillas ni poros abiertos. No presenta áreas grasosas o resecas. Las personas con este tipo de piel solo necesitan un régimen básico de belleza para mantener el balance natural. Pero sin cuidarse la piel y sin una alimentación adecuada la belleza de esta piel no dura por largo tiempo.</string>
+    <string name="conse11">Piel Mixta</string>
+    <string name="conse12">Debido a que en este tipo de pieles existe una zona seca y otra más bien grasa, es preciso efectuar una rutina de cuidados que tenga en cuenta ambos aspectos: hidratar la zona seca y reducir la secreción sebácea en la zona grasa.</string>
+    <string name="conse13">Piel Grasa</string>
+    <string name="conse14">Esta piel se caracteriza por una sobre producción de sebo y aceites lo que resulta en espinillas, poros abiertos, puntos negros y barros. La piel grasa es especialmente común durante la adolescencia cuando los cambios hormonales promueven esta sobreproducción. La ventaja de esta piel es que se mantiene joven por mas tiempo. Esta piel requiere cuidados especiales con limpiadoras, lociones y cremas adaptadas a este tipo de piel y que impidan la acumulación de impurezas.</string>
+
+    <string name="conses1">Tips para el cuidado</string>
+    <string name="conses2">Hierbas naturales</string>
+    <string name="conses3">Los tratamientos naturales a base de hierbas no sólo dejan tu piel suave y sedosa, sino que también la limpian y la dejan libre de acné. Los suplementos de hierbas con zinc, el aceite de árbol de té y la levadura de cerveza eliminan los puntos negros y las erupciones que van de leves a moderadas. Echa un vistazo a las golosinas naturales disponibles en tu tienda local de nutrición.</string>
+    <string name="conses4">Leche</string>
+    <string name="conses5">Agrega cuatro litros de leche a un atina llena de agua tibia y date un baño de tina por 20 minutos. Al terminar enjuaga tu cuerpo y ya lo habrás cargado de proteínas, aminoácidos, vitaminas, minerales y calcio entre otros.</string>
+    <string name="conses6">Limón y Miel</string>
+    <string name="conses7">El limón es un astringente natural y puede ayudar a controlar la producción de grasa. En una Ponga en una taza el jugo de dos limones y un poco de miel, mezcle y aplique la mezcla por la noche sobre la zona donde tiene problemas de piel grasa (deje actuar por 15 minutos), al terminar lave la cara con agua tibia.</string>
+    <string name="conses8">Beber Agua</string>
+    <string name="conses9">La hidratación de la piel viene de adentro, en los meses de calor normalmente estamos hidratándonos con todo tipo de líquidos que consumimos en las bebidas, los refrescos, las sopas y caldos; sin embargo no debemos dejar de ingerir al menos 1 litro de agua, así no tengamos sed, el agua además de limpiar el organismo contribuye a la hidratación y mantiene la piel limpia y sana.</string>
+    <string name="conses10">Yogurt Natural</string>
+    <string name="conses11">Para los casos de pieles extremadamente seca se recomienda mezclar tres cucharadas de yogurt natural, una yema de huevo y media cucharadita de miel en un recipiente para aplicar en el rostro y dejar por 30 minutos para que absorba, luego enjuagar con agua tibia para que al cabo de un par de días tu piel comience a lucir hidratada.
+</string>
+
+    <string name="cuer">Cuidados para la Piel del Cuerpo</string>
+    <string name="cuer1">Proteja la piel del sol</string>
+    <string name="cuer2">Para mantener la piel saludable, no salgas al sol sin protección. Aplica una crema solar con un SPF que esté adaptado a tu tipo de piel. Repite la aplicación de manera regular. También es recomendable que no se esté bajo el sol durante las horas de más calor del día.</string>
+    <string name="cuer3">Jabón suave para la piel</string>
+    <string name="cuer4">¿La piel de tu cuerpo tiende a secarse, sobre todo después de la ducha? Es importante usar productos de cuidado de la piel suaves y sin jabón para la rutina de limpieza. Si utilizas productos demasiado fuertes, tu piel puede volverse extremadamente seca y sentirse molesta. Los mejores productos que se pueden usar son: jabones ricos en lípidos.</string>
+    <string name="cuer5">En la ducha</string>
+    <string name="cuer6">Para la piel es mejor la ducha que el baño, que tiende a deshidratar la piel. Asegúrate de que el agua esté templada mejor que caliente. Para los amantes del baño, esta bien darse un baño de tanto en cuanto. Sin embargo, ¡no permanezcas en el agua mucho tiempo!</string>
+    <string name="cuer7">Secar con suavidad la piel</string>
+    <string name="cuer8">Antes de que te salgas de la ducha, aclara el cuerpo entero bien para eliminar cualquier resto del producto de limpieza. Después seca con rapidez la piel dando suaves golpecitos en las piernas, pecho, brazos, etc. con la toalla. NO frotes la piel con agresividad hasta que esté seca.</string>
+    <string name="cuer9">Hidratar la piel a diario</string>
+    <string name="cuer10">¡Haz de la hidratación un hábito diario! Después de darte suaves golpecitos con la toalla para secar la piel, utiliza una crema adecuada para hidratar la piel de manera efectiva. Esto te ayudará a reparar la película hidrolipídica que cubre la epidermis. No te olvides de que hay que hidratar TODOS LOS TIPOS DE PIEL!</string>
+    <string name="cuer11">Cuidado con el frio</string>
+    <string name="cuer12">el clima frío, al igual que el viento y el sol, tiende a secar la piel, dejándola con una molesta sensación de tirantez y picor. Tan pronto como las temperaturas disminuyen, asegúrate de que te abrigas. ¡Y no olvides protegerte las manos!</string>
+    <string name="cuer13">Comer saludablemente</string>
+    <string name="cuer14">Una dieta saludable y equilibrada no es solo buena para tu cuerpo sino también para tu piel. Cada día debes comer cinco piezas de fruta y verduta, ricas en antioxidantes. Esto te ayudará a mantener tu piel bella y saludable.</string>
+
+
+
+
+
+    <string name="infocon">Email: dermapp@gmail.com
+        Pagina Web: www.dermapp.com.co
+        Facebook: DermAppOficial
+        Direccion: Cll 50 #52-22 , Medellin, Antioquia, Colombia.
+        Telefono: 255 78 90
+        Celular: 300 456 3040
+
+    </string>
+
+
+    <string name="calcu1">No ha ingresado el nombre del paciente</string>
+    <string name="calcu2">No ha ingresado la edad del paciente</string>
+    <string name="calcu4">Riesgo Alto</string>
+    <string name="calcu5">Riesgo Moderado</string>
+    <string name="calcu6">Riesgo Bajo</string>
+    <string name="calcu9">Sin Riesgo Aparente</string>
+    <string name="calcu7">Puntuacion:</string>
+
+    <string name="calcu8">Reevaluar anualmente o cuando la situacion del paciente cambie.</string>
+    <string name="calcu3">Resultados de la valoracion</string>
+
+
+
+    <string name="calculate1">Calcular</string>
+    <string name="val1">No ha llenado todos los items</string>
+
+
+    <string name="nombres">Nombre del Paciente </string>
+
+    <string name="edad">Edad del Paciente </string>
+
+    <string name="guia">Guia de Apoyo </string>
+
+    <string name="ABraden">Percepcion Sensorial </string>
+
+
+    <string name="ABraden111">Capacidad para resolver significativamente al discomfor relacionado con la presion. </string>
+
+    <string name="ABraden11">No responde(no se queja, no se defiende ni se agarra) ante estimulos dolorosos, por un nivel disminuido de conciencia o sedacion o capacidad limitada para sentir dolor sobre la mayoria de la superficie corporal. </string>
+    <string name="ABraden21">Responde solo a los estimulos dolorosos. No puede comunicar el discomfor excepto por quejido o agitacion o tiene dterioro sensorial que limita la capacidad para sentir dolor o dicomfor sobre la mitad del cuerpo. </string>
+    <string name="ABraden31">Responde a ordenes verbales pero no siempre puede comunicar el discomfor o la necesidad de ser volteado o tiene alguna alteracion sensorial que limita la capacidad para sentir dolor o discomfor en una o dos extremidades. </string>
+    <string name="ABraden41">Responde a ordenes verbales. No tiene deficit sensorial que limite la capacidad de sentir o manifestar dolor o discomfor. </string>
+
+    <string name="ABraden2">Grado en el cual la piel esta expuesta a la humedad. </string>
+
+    <string name="ABraden12">Lapiel permanece humeda casi constantemente por sudoracion, orina o liquidos corporales. Cada vez que es movilizado o girado se encuentra mojado. </string>
+    <string name="ABraden22">La piel esta frecuentemente humenda y las sabanas deben cambiarse por lo menos una vez cada ocho horas. </string>
+    <string name="ABraden32">La piel esta ocasionalmente humeda y requiere un cambio cada doce horas. </string>
+    <string name="ABraden42">La piel esta usualmente seca y las sabanas se cambian con intervalos de rutina. </string>
+
+    <string name="ABraden3">Grado de actividad fisica. </string>
+
+    <string name="ABraden13">Confinado en cama. </string>
+    <string name="ABraden23">Capacidad para caminar severamente limitada o inexistente. No puede soportar su propio peso o debe ser asistido en la silla comun o de ruedas. </string>
+    <string name="ABraden33">Camina ocasionalmente durante el dia pero muy cortas distancias con o sin asistencia. Pasa la mayor parte del turno(ocho horas) en la silla o en la cama. </string>
+    <string name="ABraden43">Camina fuera del cuarto por lo menos dos veces al dia y dentro de el por lo menos una vez cada dos horas. </string>
+
+    <string name="ABraden4">Patron usual del consumo alimentario </string>
+
+    <string name="ABraden14">Nunca come una comida completa. Rara vez come mas de un tercio de cualquier comida ofrecida. Come dos porciones o mnos de proteinas por dia. Toma poco liquido. No toma suplementoalimenticio liquido o esta sin via oral o con dieta liquida clara o intravenosa por mas de cinco dias.  </string>
+    <string name="ABraden24">Rara vez come una comida completa y generalmente come solo la mitad de cualquier comida ofrecida. La ingesta de proteinas incluye solamente tres porciones de carne o productos lacteos por dia. Ocasionalmente toma un suplemento alimentico o recibe menos de la cntidad optima de dieta liquida o alimentacion por sonda. </string>
+    <string name="ABraden34">Come mas de la mitad de la mayoria de las comidas. Come el total de cuatro porciones de proteina por dia. Ocasionalmente rechaza una comida pero usualmente toma un suplemento alimenticio si se le ofrece o esta siendo alimentado por sonda o nutricion parenteral. </string>
+    <string name="ABraden44">Come la mayoria de todas las comidas, nunca rechaza una comida, usualmente come un total de cuatro o mas porciones de carne y productos lacteos, ocasionalmente come entre comidas. No requiere suplemento alimenticio. </string>
+
+    <string name="ABraden5">La persona puede realizar movimientos. </string>
+
+    <string name="ABraden15">Requiere asistencia de moderada a maxima al movilizarlo. Levantarlo completamente sin deslizarlo sobre las sabanas es imposible. Frecuentemente se desliza en la cama o en la silla y requiere constantes cambios de posicion con un maximo de asistencia. La espasticidad y contracturas llevan a la friccion casi constante. </string>
+    <string name="ABraden25">Se mueve torpemente o requiere minima asistencia. Durante un movimiento, la piel probablemente se desliza en algun grado contra las sabanas, la silla o los objetos de restriccion. Mantiene relativamente buena posicion en la silla o en la cama la mayoria del tiempo, pero ocasionalmente se desliza hacia abajo. </string>
+    <string name="ABraden35">Se mueve en la cama o en la silla y tiene suficiente fuerza muscular para sostenerse completamente durante el movimiento. Mantiene buena posicion en la cama o en la silla en todo momento. </string>
+
+    <string name="ABraden6">Capacidad para cambiar y controlar la posicion del cuerpo </string>
+
+    <string name="ABraden16">No realiza ni ligeros cambios en la posicion del cuerpo o las extremidades sin asistencia. </string>
+    <string name="ABraden26">Realiza cambios minimos y ocacionales de la posicion del cuerpo o las extremidades, pero es incapaz de realizar de forma independiente cambios frecuentes y significativos.  </string>
+    <string name="ABraden36">Realiza frecuentes aunque ligeros cambios en la posicion del cuerpo o de las extremidades de forma independiente. </string>
+    <string name="ABraden46">Realiza cambios mayores y frecuentes en la posicion sin asistencia. </string>
+
+
+    <string name="Braden1">Percepcion Sensorial</string>
+    <string name="Braden2">Humedad </string>
+    <string name="Braden3">Actividad </string>
+    <string name="Braden4">Nutricion </string>
+    <string name="Braden5">Friccion </string>
+    <string name="Braden6">Movilidad </string>
+
+
+    <string name="opcion">Percepcion Sensorial </string>
+
+    <string name="opcion11">Completamente Limitada </string>
+    <string name="opcion21">Muy Limitada </string>
+    <string name="opcion31">Levemente Limitada </string>
+    <string name="opcion41">No Alterada </string>
+
+    <string name="opcion12">Constantemente Humeda </string>
+    <string name="opcion22">Muy Humeda </string>
+    <string name="opcion32">Ocasionalmente Humeda </string>
+    <string name="opcion42">Rara vez Humeda </string>
+
+    <string name="opcion13">En Cama </string>
+    <string name="opcion23">En Silla </string>
+    <string name="opcion33">Camina Ocasionalmente </string>
+    <string name="opcion43">Camina con Frecuencia </string>
+
+
+    <string name="opcion14">Muy Pobre </string>
+    <string name="opcion24">Probablemente Inadecuada </string>
+    <string name="opcion34">Adecuada </string>
+    <string name="opcion44">Exelente </string>
+
+
+    <string name="opcion15">Es un Problema</string>
+    <string name="opcion25">Es un Problema Potencial </string>
+    <string name="opcion35">Sin Problema Aparente </string>
+
+
+    <string name="opcion16">Completamente Inmovil </string>
+    <string name="opcion26">Muy Limitada </string>
+    <string name="opcion36">Ligeramente Limitada </string>
+    <string name="opcion46">Sin Limitaciones </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="infos">DermApp es una aplicacion diseñada para realizar valoraciones del estado de la piel y calcular los riesgos potenciales de una persona en estado de hospitalizacion.
+    Nuestra aplicacion se basa en escalas de valoracion aprobadas por la comunidad medica.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

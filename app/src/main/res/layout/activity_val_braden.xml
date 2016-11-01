@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.danielcorrea.dermapp.ValBraden">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bradens"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/azulito"
+                android:textSize="30dp"
+                android:id="@+id/nomval"
+                android:hint="@string/nombres"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColorHint="@color/azulito"
+                android:id="@+id/edadval"
+                android:textSize="30dp"
+                android:hint="@string/edad"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/guias"
+        android:background="@drawable/lup"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="@color/azulito"
+        android:textSize="20dp"
+        android:text="@string/guia"/>
+
+
+</LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/Braden1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGr1">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion11"
+                    android:textColor="@color/azulito"
+                    android:textSize="30sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio01" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion21"
+
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/azulito"
+                    android:id="@+id/radio11" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion31"
+                    android:textColor="@color/azulito"
+                    android:onClick="onRadioButtonClicked"
+
+                    android:id="@+id/radio21" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textColor="@color/azulito"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion41"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio31" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/Braden2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGr2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion12"
+                    android:textColor="@color/azulito"
+                    android:textSize="30sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio02" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion22"
+
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/azulito"
+                    android:id="@+id/radio12" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion32"
+                    android:textColor="@color/azulito"
+                    android:onClick="onRadioButtonClicked"
+
+                    android:id="@+id/radio22" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textColor="@color/azulito"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion42"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio32" />
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/Braden3"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGr3">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion13"
+                    android:textColor="@color/azulito"
+                    android:textSize="30sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio03" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion23"
+
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/azulito"
+                    android:id="@+id/radio13" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion33"
+                    android:textColor="@color/azulito"
+                    android:onClick="onRadioButtonClicked"
+
+                    android:id="@+id/radio23" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textColor="@color/azulito"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion43"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio33" />
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/Braden4"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGr4">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion14"
+                    android:textColor="@color/azulito"
+                    android:textSize="30sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio04" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion24"
+
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/azulito"
+                    android:id="@+id/radio14" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion34"
+                    android:textColor="@color/azulito"
+                    android:onClick="onRadioButtonClicked"
+
+                    android:id="@+id/radio24" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textColor="@color/azulito"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion44"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio34" />
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/Braden5"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGr5">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion15"
+                    android:textColor="@color/azulito"
+                    android:textSize="30sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio05" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion25"
+
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/azulito"
+                    android:id="@+id/radio15" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion35"
+                    android:textColor="@color/azulito"
+                    android:onClick="onRadioButtonClicked"
+
+                    android:id="@+id/radio25" />
+
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/Braden6"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></LinearLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGr6">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion16"
+                    android:textColor="@color/azulito"
+                    android:textSize="30sp"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio06" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion26"
+
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/azulito"
+                    android:id="@+id/radio16" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:text="@string/opcion36"
+                    android:textColor="@color/azulito"
+                    android:onClick="onRadioButtonClicked"
+
+                    android:id="@+id/radio26" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textColor="@color/azulito"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:text="@string/opcion46"
+                    android:onClick="onRadioButtonClicked"
+                    android:id="@+id/radio36" />
+
+            </RadioGroup>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/boton"
+                android:text="@string/calculate1"
+                android:id="@+id/calcu"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

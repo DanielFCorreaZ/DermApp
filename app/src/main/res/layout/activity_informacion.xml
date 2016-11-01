@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.danielcorrea.dermapp.Informacion">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:id="@+id/lau"
+        android:background="@drawable/nombre">
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/atras"
+            android:layout_height="50dp"
+            android:background="@drawable/back"
+            />
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="@string/infos"
+        android:textColor="@color/azulito"
+        android:id="@+id/pDes"/>
+
+</LinearLayout>

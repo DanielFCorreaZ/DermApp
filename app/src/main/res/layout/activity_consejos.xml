@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.danielcorrea.dermapp.Consejos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:layout_width="50dp"
+                android:id="@+id/atras1"
+                android:layout_height="50dp"
+                android:background="@drawable/back"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textColor="@color/azulito"
+                android:text="@string/main7" />
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conse1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse3"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conse5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conse7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse8"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conse9"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conse11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse12"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conse13"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conse14"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conses1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conses2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conses3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conses4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conses5"/>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/conses6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conses7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conses8"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conses9"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/conses10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/conses11"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer8"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer9"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer12"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/cuer13"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:textColor="@color/azulito"
+                android:text="@string/cuer14"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
