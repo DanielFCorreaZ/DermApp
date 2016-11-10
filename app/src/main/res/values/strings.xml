@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DermApp</string>
-    <string name="usuario">Profesional</string>
+    <string name="usuario">Usuario</string>
+    <string name="usuario1">Nombre del Profesional</string>
     <string name="contra">Codigo</string>
     <string name="recontra">Repetir Codigo</string>
     <string name="correo">Correo Electronico</string>
@@ -8,8 +9,19 @@
     <string name="entrar">Ingreso</string>
     <string name="registro">Registro</string>
     <string name="trab">Ingresar Sin Registro</string>
+    <string name="codhos">Codigo Hospital</string>
+    <string name="contra1">Cotraseña</string>
+    <string name="recontra1">Repetir Contraseña</string>
+    <string name="recodhos">Repetir Codigo Hospital</string>
+
+    <string name="abrehos">Abreviatura</string>
+    <string name="nombrehos">Nombre del Hospital</string>
 
 
+    <string name="lat">Latitud</string>
+    <string name="lon">Longitud</string>
+
+    <string name="trab1">Registrar Hospital</string>
     <string name="casi2">Califica la aplicacion </string>
     <string name="casi3">Gracias por ayudarnos a ser mejores !</string>
     <string name="clas">Calificar</string>
@@ -36,6 +48,14 @@
     <string name="valorasi3">Wallace</string>
 
 
+    <string name="logginh1">El codigo ingresado ya ha sido asignado</string>
+    <string name="logginh2">El nombre ingresado ya se encuetra registrado</string>
+    <string name="logginh3">La abreviacion ingresada ya se encuentra registrada</string>
+
+    <string name="logginp1">El codigo ingresado no corresponde a ningun hospital</string>
+    <string name="logginp11">El nombre de usuario ya se encuentra registrado</string>
+    <string name="loggin12">No ha ingresado el nombre del Profesional</string>
+    <string name="loggin11">No ha ingresado el nombre del hospital</string>
     <string name="loggin1">No ha ingresado el nombre de usuario</string>
     <string name="loggin2">El nombre de usuario no se encuentra registrado</string>
     <string name="loggin3">No ha ingresado la contraseña</string>
@@ -44,10 +64,12 @@
     <string name="loggin6">No ha ingresado la misma contraseña</string>
     <string name="loggin7">No ha ingresado el correo correcto</string>
     <string name="loggin8">No ha ingresado una direccion de correo correcto</string>
-
+    <string name="loggin111">No ha ingresado el codigo del hospital</string>
+    <string name="loggin71">No ha ingresado una abreviacion</string>
     <string name="loggin9">Usuario Registrado</string>
-
-
+    <string name="loggin91">Hospital Registrado</string>
+    <string name="loggin31">No ha ingresado el codigo</string>
+    <string name="loggin61">No ha ingresado el mismo codigo</string>
     <string-array name="posiciones">
         <item>Menu Principal</item>
         <item>Perfil</item>
@@ -55,9 +77,9 @@
         <item>Calificacion</item>
         <item>Cerrar Sesion</item>
     </string-array>
-
-
+    <string name="guias">Buscar Hospital</string>
     <string name="empezar">Empezar</string>
+
 
 
     <string name="main">Menu Principal</string>
@@ -165,7 +187,6 @@
 
     <string name="calcu8">Reevaluar anualmente o cuando la situacion del paciente cambie.</string>
     <string name="calcu3">Resultados de la valoracion</string>
-
 
 
     <string name="calculate1">Calcular</string>
@@ -294,4 +315,5 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

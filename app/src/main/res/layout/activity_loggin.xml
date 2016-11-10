@@ -20,7 +20,7 @@
         android:layout_height="0dp"
         android:textColor="@color/white"
         android:background="@drawable/boton"
-        android:text="@string/trab"
+        android:text="@string/trab1"
 
         android:id="@+id/sin"
         android:textSize="25dp"/>
@@ -38,6 +38,7 @@
         android:textStyle="bold|italic"
         android:singleLine="false" />
 
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -50,6 +51,20 @@
         android:textColor="@color/azulito"
         android:id="@+id/paass"
         android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:inputType="textPersonName"
+        android:textColor="@color/azulito"
+        android:hint="@string/codhos"
+        android:textSize="40dp"
+        android:textColorHint="@color/azulito"
+        android:id="@+id/codhoss"
+        android:textColorLink="@color/azulito"
+        android:textStyle="bold|italic"
+         />
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "500799461578",
+    "firebase_url": "https://dermapp-d2599.firebaseio.com",
+    "project_id": "dermapp-d2599",
+    "storage_bucket": "dermapp-d2599.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500799461578:android:402d0ca443ed14cc",
+        "android_client_info": {
+          "package_name": "com.danielcorrea.dermapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500799461578-savtbmca9nbsvtqhegt8a82o4ghg3lu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danielcorrea.dermapp",
+            "certificate_hash": "398895ADE4DECCFF251183BCC194F8A340E1F231"
+          }
+        },
+        {
+          "client_id": "500799461578-oe9m0fo4upk7h7nep8qdk57j6f60kj1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDayTgE-id_Pm1MsYJr9t8fTd-czRYCtRg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500799461578-oe9m0fo4upk7h7nep8qdk57j6f60kj1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

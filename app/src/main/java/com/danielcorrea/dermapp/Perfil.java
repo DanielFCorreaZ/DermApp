@@ -21,6 +21,14 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+
+import java.util.ArrayList;
 
 public class Perfil extends AppCompatActivity {
 
@@ -36,7 +44,7 @@ public class Perfil extends AppCompatActivity {
     private ActionBarDrawerToggle drawerToggle;
     String name,price,description;
     int ids;
-    int num,cliente,i=0;
+    int num=0,cliente,i=0,idh,idp;
     int[] pros=new int[]{7,7,7,7,7};
     Productos datos[]=
             new Productos[]{
@@ -50,6 +58,12 @@ public class Perfil extends AppCompatActivity {
     ContentValues dataBD;
     SQLiteDatabase dbContactos,dbMisFavoritos,dbProductos;
 
+    private String FIREBASE_URL="https://dermapp-d2599.firebaseio.com/";
+    private Firebase firebasedatos;
+
+    ArrayList<Valoration> valo,valo1,valo2;
+    ArrayList<Profetional> profe;
+    ArrayList<Hospital> hospi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +75,12 @@ public class Perfil extends AppCompatActivity {
                 getText(R.string.main4).toString()};
        // ContactosSQLiteHelper misfavoritos = new ContactosSQLiteHelper(this,"MisFavoritosBD", null, 1);
        // ContactosSQLiteHelper productos = new ContactosSQLiteHelper(this,"ProductosBD", null, 1);
-        BasesSQLiteHelper contactos = new BasesSQLiteHelper(this,"ContactosBD", null, 1);
-        dbContactos = contactos.getWritableDatabase();
+      //  BasesSQLiteHelper contactos = new BasesSQLiteHelper(this,"ContactosBD", null, 1);
+       // dbContactos = contactos.getWritableDatabase();
+
+
+        Firebase.setAndroidContext(this);
+        firebasedatos = new Firebase(FIREBASE_URL);
         // dbProductos = productos.getWritableDatabase();
         // dbMisFavoritos = misfavoritos.getWritableDatabase();
 
@@ -127,13 +145,54 @@ public class Perfil extends AppCompatActivity {
 
        // cliente=prefs.getInt("num",-1);
 
-        num=prefs.getInt("num",-1);
-        Cursor c = dbContactos.rawQuery("select * from Contactos where id='"+num+"'",null);
-        if(c.moveToFirst()) {
+     /*   valo = new ArrayList<Valoration>();
 
-            nomb = c.getString(1);
-            mais = c.getString(3);
-        }
+        profe = new ArrayList<Profetional>();
+
+
+        Valoration valos2 = new Valoration("","","","","",String.valueOf(1));
+        valo.add(valos2);
+
+        final Profetional profes = new Profetional("Javier Alberto", "javi", "123", String.valueOf(1), valo);
+        profe.add(profes);
+
+        idh=prefs.getInt("idhospital",-1);
+        idp=  prefs.getInt("idprofesio",-1);
+
+
+        Hospital hospis2 = new Hospital(profe,"","","","lat","long","");
+
+        firebasedatos.child("Hospital "+-1).setValue(hospis2);
+
+        final String code = "Hospitalito";
+
+        firebasedatos.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                if (dataSnapshot.child(code).exists()) {
+                    //Toast.makeText(getApplicationContext(), "id recuperado", Toast.LENGTH_SHORT).show();
+
+                    hospi = new ArrayList<Hospital>();
+                    hospi.add(dataSnapshot.child("Hospital "+idh).getValue(Hospital.class));
+
+
+                    nomb= hospi.get(0).getProfesionales().get(idp).getNombrep();
+                    mais= hospi.get(0).getProfesionales().get(idp).getIdp();
+
+                    Toast.makeText(getApplicationContext(), nomb, Toast.LENGTH_SHORT).show();
+                    num=1;
+
+
+
+                }
+
+            }@Override
+            public void onCancelled(FirebaseError firebaseError) {
+            }
+        });*/
+
+
         /*Cursor c1 = dbMisFavoritos.rawQuery("select * from MisFavoritos where user='"+cliente+"'",null);
         if(c1.moveToFirst()) {
             i=0;
@@ -164,11 +223,12 @@ public class Perfil extends AppCompatActivity {
         tmail=(TextView) findViewById(R.id.email);
         tName.setText(nomb);
         tmail.setText(mais);*/
+        mais=prefs.getString("correop","no");
+        nomb=  prefs.getString("nombrep","no");
 
-
-        PagerAdapter page1 =new PagerAdapter(getSupportFragmentManager());
-        vp = (ViewPager) findViewById(R.id.Pager1);
-        vp.setAdapter(page1);
+    PagerAdapter page1 = new PagerAdapter(getSupportFragmentManager());
+    vp = (ViewPager) findViewById(R.id.Pager1);
+    vp.setAdapter(page1);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -218,7 +278,8 @@ public class Perfil extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position){
-                case 0 : return new PerfilFragment(nomb,mais);
+                case 0 :
+                    return new PerfilFragment(nomb,mais);
                 case 1 : return new PerfilFragment(nomb,mais);
 
                 default: return null;
